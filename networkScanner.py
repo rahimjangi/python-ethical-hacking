@@ -10,11 +10,11 @@ import argparse
 
 def get_options():
     parser = argparse.ArgumentParser(description="IP Address for the destination '192.168.1.1/24' - for example")
-    parser.add_argument("-ip", "--ipaddress", required=True, help="IP address to scan")
+    parser.add_argument("-t", "--target", required=True, help="IP address to scan")
     args=parser.parse_args()
 
-    if args.ipaddress:    
-        return args.ipaddress
+    if args.target:    
+        return args.target
     else:
         return "192.168.0.1/24"
 
