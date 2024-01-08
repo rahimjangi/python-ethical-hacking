@@ -10,7 +10,7 @@ Controlled Environment: Use it in a controlled environment like a lab or a test 
 Purpose: This script is intended for educational purposes to understand network security concepts.
 Be sure to understand the implications and use it responsibly.
 python arpSpoof.py [Target IP] [Gateway IP]
-
+[-] echo 1 > /proc/sys/net/ipv4/ip_forward
 """
 
 def get_mac(ip):

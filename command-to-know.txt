@@ -1,0 +1,21 @@
+Reconnaissance and Information Gathering:
+Are crucial initial phases in the field of ethical hacking and cybersecurity. They involve collecting as much information as possible about a target system, network, or organization before attempting to find vulnerabilities or carry out an attack.
+Reconnaissance: This is the first phase of a hacking attack cycle, often referred to as the preparation phase. The hacker or security professional tries to gather as much information as possible about the target. Reconnaissance can be:
+
+Passive Reconnaissance: Involves collecting information without directly interacting with the target. This could include gathering data from public sources like websites, social media, and public records.
+
+Active Reconnaissance: Involves directly interacting with the target system to gather information. This could include using tools to scan network and system ports, detect services running on the system, and find vulnerabilities.
+
+Information Gathering: This step is often considered part of reconnaissance but focuses specifically on the acquisition of data. It involves identifying valuable data sources and collecting information such as :
+Network Information:[ IP addresses, domain details, network services, and topology].
+IP addresses# 
+    --$ ping website.com 
+    --$ nslookup website.com
+    --$ whois website.com
+    --$ whatweb website.com -a[1, 2, 4] -v --no-errors --log-verbose=path to file[filename]
+Email Addresses:
+    --$ theHarvester -d website.com -b all -v
+    -- google => hunter.io
+System Information: [Operating system details, system architecture, installed software and patches].
+Organizational Information: [Employee details, office locations, internal structure, and security policies].
+Technical Information: [Databases, web servers, and application frameworks].
