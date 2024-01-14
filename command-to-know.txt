@@ -9,6 +9,7 @@ Active Reconnaissance: Involves directly interacting with the target system to g
 Information Gathering: This step is often considered part of reconnaissance but focuses specifically on the acquisition of data. It involves identifying valuable data sources and collecting information such as :
 Network Information:[ IP addresses, domain details, network services, and topology].
 IP addresses# 
+    --$ arp -a
     --$ ping website.com 
     --$ nslookup website.com
     --$ whois website.com
@@ -19,3 +20,8 @@ Email Addresses:
 System Information: [Operating system details, system architecture, installed software and patches].
 Organizational Information: [Employee details, office locations, internal structure, and security policies].
 Technical Information: [Databases, web servers, and application frameworks].
+----------------------------------------------------------------------------
+Network Discover
+    --$ netdiscover -r[range:192.168.1.1/24]
+    --$ netstat -nr [will return ip address of router]
+    --$ nmap -sS -f -f -D RND [number of random ip (this option hides the hacker ip )]website.com[network exploration tool and security / port scanner]
