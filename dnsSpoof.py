@@ -46,6 +46,7 @@ def setup_network_configuration():
         ["sysctl", "-w", "net.ipv4.ip_forward=1"],
         ["iptables", "-I", "INPUT", "-j", "NFQUEUE", "--queue-num", "0"],
         ["iptables", "-I", "OUTPUT", "-j", "NFQUEUE", "--queue-num", "0"]
+        # ["iptables", "-I", "FORWARD", "-j", "NFQUEUE", "--queue-num", "0"]
     ]
 
     for command in commands:
