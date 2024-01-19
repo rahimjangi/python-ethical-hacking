@@ -10,3 +10,4 @@ Data Theft: Stealing sensitive or personal information, such as financial data o
 Distribution of Malware: Creating and distributing harmful software like viruses, worms, or ransomware can result in criminal charges.
 Cyber Terrorism: Attacks on critical infrastructure or government networks may be classified as acts of terrorism, especially if they threaten national security, cause widespread fear, or result in significant financial or physical damage.
 Espionage: Hacking for the purpose of espionage, especially when it involves government or military systems, can lead to charges of spying, which are particularly serious.
+Accept-Encoding:
